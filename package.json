@@ -1,0 +1,23 @@
+{
+  "name": "MeanWeather",
+  "version": "0.1.0",
+  "description": "Weather chosen by you",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "online"
+      ],
+  "author": "Jerome Renaux",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+
+  }
+}
