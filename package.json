@@ -14,10 +14,7 @@
   "keywords": [
     "online"
       ],
-  "author": "Jerome Renaux",
+  "author": "Mikael Nilsson",
   "license": "MIT",
-  "homepage": "",
-  "dependencies": {
-
-  }
+  "homepage": ""
 }
