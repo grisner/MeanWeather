@@ -1,4 +1,18 @@
 var http = require("http");
+var request = require('request');
+
+GetWeather = function() {
+	var url = "http://opendata-download-metfcst.smhi.se/api/category/pmp2g/version/2/geotype/point/lon/52/lat/12/data.json"
+
+	request(url, function (error, response, body) {
+	    if (!error && response.statusCode == 200) {
+	        console.log(body) // Print the google web page.
+	     }
+	})
+}
+
+
+
 var server = http.createServer(function(request, response) {
   response.writeHead(200, {"Content-Type": "text/html"});
   response.write("<html>");
